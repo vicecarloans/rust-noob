@@ -29,6 +29,12 @@ fn main() {
 
     // Check the balance again
     account.check_balance();
+
+    let a: u16 = 5;
+    println!("The value of a is {}", a);
+    // Cannot do this because a is immutable
+    // a = 10;
+    
 }
 
 struct BankAccount {
